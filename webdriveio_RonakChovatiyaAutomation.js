@@ -4,8 +4,8 @@ Webdriver.io with seleniumwebdriver
 
 
 var Webdriverio = require('Webdriverio');
-var options = { desiredCapabilites: { browserName: 'chrome'}};
-var client = Webdriverio.remote(options);
+var browser = { desiredCapabilites: { browserName: 'chrome'}};
+
 
 client
 	.init()
